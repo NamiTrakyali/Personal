@@ -38,7 +38,7 @@ function MyApp({ Component, pageProps }) {
   return (<>
     <Head>
         <title>Swingler</title>
-        <link rel="shortcut icon" href="https://media.discordapp.net/attachments/737348411568685066/954506783777493072/Umut_Bayraktar_Icon.png" type="image/x-icon" ></link>
+        <link rel="shortcut icon" href="https://cdn.discordapp.com/attachments/1218985386538434702/1220409464826630175/r9X16a3.png?ex=660ed5e2&is=65fc60e2&hm=fb93fc5c8cfb19553f2f65dd0a7cbfad1563c0bd7073af054aa43a9bf566e057&" type="image/x-icon" ></link>
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <link href="https://pro.fontawesome.com/releases/v5.15.4/css/all.css" rel="stylesheet" />
 
@@ -56,7 +56,7 @@ function MyApp({ Component, pageProps }) {
         <div style={{ zIndex: 99999 }} className="fixed bg-black/75 w-full h-screen flex justify-center items-center pointer-events-none">
             <div className="flex items-center gap-x-6 animate-pulse">
                 <div className="text-center">
-                    <p className="text-6xl mb-5 font-semibold">Umut Bayraktar</p>
+                    <p className="text-6xl mb-5 font-semibold">Swingler</p>
                     <p className="uppercase text-xl font-semibold text-white"><i className="fal fa-spinner-third fa-spin" /></p>
                 </div>
             </div>
