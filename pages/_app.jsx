@@ -37,7 +37,7 @@ function MyApp({ Component, pageProps }) {
     });
   return (<>
     <Head>
-        <title>Umut Bayraktar</title>
+        <title>Swingler</title>
         <link rel="shortcut icon" href="https://media.discordapp.net/attachments/737348411568685066/954506783777493072/Umut_Bayraktar_Icon.png" type="image/x-icon" ></link>
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <link href="https://pro.fontawesome.com/releases/v5.15.4/css/all.css" rel="stylesheet" />
