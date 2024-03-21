@@ -18,7 +18,7 @@ export default function Home() {
                 <p className="flex items-center text-white text-4xl font-semibold">
                   Swingler
                 </p>
-                  <Tippy content={`Online} animation="shift-away" arrow={false}>
+                  <Tippy content={`Online`} animation="shift-away" arrow={false}>
                     <span className={`ml-2 text-online px-2 py-1 font-normal rounded-md text-sm`}>
                           <i className={`fa fa-circle text-online mr-2`} />Online
                     </span>
@@ -30,7 +30,7 @@ I am a professional editor and software developer. I have been professionally in
                 </p>
               </div>
               <div className={`order-first lg:order-last flex-shrink-0 relative w-[160px] h-[160px] rounded-full pulse-avatar-online `}>
-                <img alt="swingler" src={`https://cdn.discordapp.com/attachments/1218985386538434702/1220399520865583166/oOx7rZ5.png?ex=660ecc9f&is=65fc579f&hm=f30659ecb97e5944eb756da867b524770c2ab0eda927c381d2a5f5d8f5423c3e&`} width="160" height="160" className={`bg-neutral-700 w-[160px] h-[160px] rounded-full`} />
+                <img alt="umutbayraktar" src={`https://cdn.discordapp.com/attachments/1218985386538434702/1220399520865583166/oOx7rZ5.png?ex=660ecc9f&is=65fc579f&hm=f30659ecb97e5944eb756da867b524770c2ab0eda927c381d2a5f5d8f5423c3e&`} width="160" height="160" className={`bg-neutral-700 w-[160px] h-[160px] rounded-full`} />
                 <div className={`bg-[#040404] rounded-full px-[4px] py-[1px] flex items-center absolute bottom-0 right-4`}>
                   <Tippy content="Online" animation="shift-away" arrow={false}>
                     <i className={`fad fa-circle text-2xl text-online`} />
