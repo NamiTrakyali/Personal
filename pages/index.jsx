@@ -15,25 +15,24 @@ export default function Home() {
             <div className="flex flex-col lg:flex-row justify-between w-full p-6 px-8 items-center h-full">
               <div className="flex flex-col lg:justify-start justify-center items-center lg:items-start mt-5 lg:mt-0 w-full">
                 <div className="flex items-center">
-                <p className="flex items-center text-white text-4xl font-semibold">
-                  Swingler
-                </p>
-                  <Tippy content={`Online`} animation="shift-away" arrow={false}>
-                    <span className={`ml-2 text-online px-2 py-1 font-normal rounded-md text-sm`}>
-                          <i className={`fa fa-circle text-online mr-2`} />Online
+                  <p className="flex items-center text-white text-4xl font-semibold">
+                    Swingler
+                  </p>
+                  <Tippy content={`Idle`} animation="shift-away" arrow={false}>
+                    <span className={`ml-2 text-idle px-2 py-1 font-normal rounded-md text-sm`}>
+                      <i className={`fa fa-circle text-idle mr-2`} />Idle
                     </span>
                   </Tippy>
-            
                 </div>
                 <p className="text-white/50 text-md mt-3">
-I am a professional editor and software developer. I have been professionally interested in community management and development for 5 years, I have high level knowledge and experience in areas such as community management and social media management.
+                  I am a professional editor and software developer. I have been professionally interested in community management and development for 5 years, I have high level knowledge and experience in areas such as community management and social media management.
                 </p>
               </div>
-              <div className={`order-first lg:order-last flex-shrink-0 relative w-[160px] h-[160px] rounded-full pulse-avatar-online `}>
+              <div className={`order-first lg:order-last flex-shrink-0 relative w-[160px] h-[160px] rounded-full pulse-avatar-idle `}>
                 <img alt="swingler" src={`https://cdn.discordapp.com/attachments/1218985386538434702/1220399520865583166/oOx7rZ5.png?ex=660ecc9f&is=65fc579f&hm=f30659ecb97e5944eb756da867b524770c2ab0eda927c381d2a5f5d8f5423c3e&`} width="160" height="160" className={`bg-neutral-700 w-[160px] h-[160px] rounded-full`} />
                 <div className={`bg-[#040404] rounded-full px-[4px] py-[1px] flex items-center absolute bottom-0 right-4`}>
-                  <Tippy content="Online" animation="shift-away" arrow={false}>
-                    <i className={`fad fa-circle text-2xl text-online`} />
+                  <Tippy content="Idle" animation="shift-away" arrow={false}>
+                    <i className={`fad fa-circle text-2xl text-idle`} />
                   </Tippy>
                 </div>
               </div>
@@ -125,8 +124,6 @@ I am a professional editor and software developer. I have been professionally in
               ))}
         </div>
       </div>
-
-
     </>
   )
 }
