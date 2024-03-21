@@ -4,7 +4,7 @@ let key1 = 'ghp_VzcC7gx0GXzOVP1';
 let key2 = '7kIiTmNtBqj2sOC0S0zxD';
 
 export default async (req, res) => {
-    let _ = await (await fetch('https://api.github.com/users/umutxyp/repos', {
+    let _ = await (await fetch('https://github.com/NamiTrakyali?tab=repositories', {
         headers: {
             Authorization: 'token '+key1+key2
         }
