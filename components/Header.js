@@ -2,7 +2,7 @@
 const items = [
     { icon: 'fab fa-youtube', link: 'https://youtube.com/@parsher_?si=1DLup7tPqd6u9FqT' },
     { icon: 'fab fa-twitch', link: '' },
-    { icon: 'fab fa-discord', link: 'https://discord.com/users/615029465726320654' },
+    { icon: 'fab fa-discord', link: 'https://discord.com/invite/bdfd' },
     { icon: 'fab fa-instagram', link: 'https://www.instagram.com/egeefe.er4?igsh=YzU1NGVlODEzOA==' },
     { icon: 'fab fa-facebook', link: '' },
     { icon: 'fab fa-github', link: 'https://github.com/NamiTrakyali' },
