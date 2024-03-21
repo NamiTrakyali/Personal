@@ -18,7 +18,7 @@ export default function Home() {
                 <p className="flex items-center text-white text-4xl font-semibold">
                   Swingler
                 </p>
-                  <Tippy content={`idle`} animation="shift-away" arrow={false}>
+                  <Tippy content={`pulse-idle} animation="shift-away" arrow={false}>
                     <span className={`ml-2 text-idle px-2 py-1 font-normal rounded-md text-sm`}>
                           <i className={`fa fa-circle text-idle mr-2`} />idle 
                     </span>
