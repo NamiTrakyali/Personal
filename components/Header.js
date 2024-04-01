@@ -18,18 +18,36 @@ const navItems = [
 import Link from 'next/link';
 import { useRouter } from 'next/router';
 
-const Header = () => {
+const Header = () => { //burdan
     const router = useRouter();
-    return <>
+    const [yazi, setYazi] = useState('');
+    const swinglerJS = 'Swingler.JS';
+
+    // Belirli bir gecikme sonrasında metni harf harf göster
+    useEffect(() => {
+        let i = 0;
+        const zamanlayici = setInterval(() => {
+            setYazi(prevYazi => prevYazi + swinglerJS[i]);
+            i++;
+            if (i === swinglerJS.length) clearInterval(zamanlayici);
+        }, 100); // Her harf için 100 milisaniye gecikme
+
+        // Bileşenin sonlandırılması durumunda zamanlayıcıyı temizle
+        return () => clearInterval(zamanlayici);
+    }, []);
+
+    const items = [/* Items diziniz */];
+
+    return (
         <div className="w-full border-b-2 border-neutral-800/20 pb-2">
             <div className="flex flex-col md:flex-row w-full items-center md:justify-between">
-                <p className="font-semibold font-Poppins text-xl">Swingler.JS</p>
+                <p className="font-semibold font-Poppins text-xl">{yazi}</p>
                 <div className="flex items-center space-x-2">
                     {items.map(item => (
                         <a key={item.link} href={item.link} target="_blank" rel="noreferrer" className="flex items-center justify-center hover:bg-neutral-700/20 rounded-xl transition-all duration-150 p-2 px-3">
                             <i className={`${item.icon} text-3xl`} />
                         </a>
-                    ))}
+                    ))} // buraya
                 </div>
             </div>
             <div className="flex justify-center md:justify-start items-center space-x-4 py-2">
