@@ -14,10 +14,10 @@ export default function Home() {
         <p className="text-xl text-white/50 font-normal text-center mb-5">Other addresses where you can contact me.</p>
         <div className=" flex justify-center flex-col items-center">
             <div className="max-w-lg w-full">
-                <a target="_blank" rel="norefferer" href=" https://www.instagram.com/egeefe.er4/">
+                <a target="_blank" rel="norefferer" href=" https://www.instagram.com/">
                     <div className="flex justify-between bg-zinc-500/5 hover:bg-zinc-500/10 transition-all duration-200 px-4 py-2 rounded-lg items-center">
                         <i className="fab fa-instagram fa-2x" />
-                        <p className="font-semibold text-xl">@egeefe.er4</p>
+                        <p className="font-semibold text-xl">@</p>
                     </div>
                 </a>
                 <a target="_blank" rel="norefferer" href="adres">
