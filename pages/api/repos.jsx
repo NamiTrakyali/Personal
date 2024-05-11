@@ -1,7 +1,7 @@
 const fetch = require('isomorphic-unfetch')
 
-let key1 = 'ghp_PegBswG1pSXlCqd';
-let key2 = 'IPXeJM5NjphA8Tx0NCDMH';
+let key1 = 'ghp_lh2F44XCs5xB1oH';
+let key2 = '7Qbmq8BUwIz4ptT1Y1bdb';
 
 export default async (req, res) => {
     let _ = await (await fetch('https://api.github.com/users/NamiTrakyali/repos', {
